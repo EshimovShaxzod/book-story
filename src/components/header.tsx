@@ -6,11 +6,11 @@ import { Button, Navbar } from "flowbite-react";
 
 export function Header() {
   return (
-    <header className="shadow-sm py-2">
+    <header className="shadow-sm py-2 bg-[#FDF8EE]">
       <Navbar
         fluid
         rounded
-        className="w-full  max-w-[1440px] mx-auto"
+        className="w-full  max-w-[1440px] mx-auto bg-[#FDF8EE]"
       >
         <Navbar.Brand href="/">
           <img
