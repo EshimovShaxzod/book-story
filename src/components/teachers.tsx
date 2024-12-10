@@ -5,18 +5,21 @@ import { Facebook, Instagram } from "lucide-react";
 
 const data = [
   {
+    id: 1,
     imgURL: Teacher_1,
     name: "Matthew E. McNatt",
     job: "Professor @George Brown College",
     desc: "Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
   },
   {
+    id: 2,
     imgURL: Teacher_2,
     name: "Cynthia A. Nelson",
     job: "Professor @George Brown College",
     desc: "Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
   },
   {
+    id: 3,
     imgURL: Teacher_1,
     name: "Matthew E. McNatt",
     job: "Professor @George Brown College",
@@ -36,7 +39,7 @@ const Teachers = () => {
 
         <ul className="w-full mt-8 grid md:grid-cols-3 gap-x-4  gap-y-6 mx-auto">
           {data.map((d) => (
-            <li className="w-full max-w-[490px] mx-auto">
+            <li key={d.id} className="w-full max-w-[490px] mx-auto">
               <Card
                 className="w-full cursor-pointer hover:shadow-xl"
                 imgAlt="Apple Watch Series 7 in colors pink, silver, and black"

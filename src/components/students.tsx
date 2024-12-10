@@ -6,18 +6,21 @@ import avatar_2 from "../assets/icons/avatar_2.png";
 
 const data = [
   {
+    id: 1,
     avatar: avatar_1,
     name: "Finlay Kirk",
     job: "Web Developper",
     desc: "Teachings of the great explore of truth, the master builder of human happiness no one rejects,dislikes, or avoids pleasure  itself, pleasure itself",
   },
   {
+    id: 2,
     avatar: avatar_2,
     name: "Dannette P. Cervantes",
     job: "Web Design",
     desc: "“Complete account of the system and expound the actual Contrary to popular belief, Lorem Ipsum is not simply  random text. It has roots”",
   },
   {
+    id: 3,
     avatar: avatar_1,
     name: "Finlay Kirk",
     job: "Web Developper",
@@ -38,7 +41,7 @@ const Students = () => {
 
         <ul className="w-full mt-8 grid md:grid-cols-3 gap-x-4  gap-y-6 mx-auto">
           {data.map((d) => (
-            <li>
+            <li key={d.id}>
               <Card className="max-w-sm p-4 mx-auto">
                 <p className="font-normal text-[#ACACAC] dark:text-gray-400">
                   {d.desc}

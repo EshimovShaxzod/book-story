@@ -24,7 +24,7 @@ import { Button, Navbar } from "flowbite-react";
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <Navbar.Link lassName="text-[16px]" href="#" active>
+          <Navbar.Link className="text-[16px]" href="#" active>
             Home
           </Navbar.Link>
           <Navbar.Link className="text-[16px]" href="#">
