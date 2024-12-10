@@ -4,7 +4,7 @@ import Logo from "../assets/images/logo.png";
 
 import { Button, Navbar } from "flowbite-react";
 
-export function Header() {
+ const Header = () => {
   return (
     <header className="shadow-sm py-2 bg-[#FDF8EE]">
       <Navbar
@@ -41,3 +41,5 @@ export function Header() {
     </header>
   );
 }
+
+export default Header

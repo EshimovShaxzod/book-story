@@ -1,8 +1,8 @@
 "use client";
 import { Button, Card, TextInput } from "flowbite-react";
-import HeroImg from '../assets/images/hero-illus.png'
+import HeroImg from "../assets/images/hero-illus.png";
 
-export function Hero() {
+const Hero = () => {
   return (
     <section className="bg-[#FDF8EE] pt-20">
       <div className="w-full  max-w-[1440px] mx-auto">
@@ -19,15 +19,13 @@ export function Hero() {
             </p>
             <div className="w-full max-w-[568px] h-[50px] flex items-center p-4 bg-white rounded-full">
               <TextInput
-              className="w-full"
+                className="w-full"
                 id="email1"
                 type="email"
                 placeholder="name@gmail.com"
                 required
               />
-            <Button  className="rounded-md">
-              Continiue
-            </Button>
+              <Button className="rounded-md">Continiue</Button>
             </div>
           </Card>
           <div className="w-full max-w-[500px] mx-auto md:max-w-[700px] px-4">
@@ -37,4 +35,6 @@ export function Hero() {
       </div>
     </section>
   );
-}
+};
+
+export default Hero;

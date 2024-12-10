@@ -1,7 +1,4 @@
-import { Header } from "./components/header";
-import { Hero } from "./components/hero";
-import Students from "./components/students";
-import Track from "./components/track";
+import { Footer, Header, Hero, Students, Teachers, Track } from "./components";
 
 const App = () => {
   return (
@@ -10,6 +7,8 @@ const App = () => {
       <Hero />
       <Track />
       <Students />
+      <Teachers />
+      <Footer />
     </>
   );
 };

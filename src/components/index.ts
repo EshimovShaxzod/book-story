@@ -1,0 +1,6 @@
+export { default as Header} from './header'
+export { default as Hero} from './hero'
+export { default as Track} from './track'
+export { default as Students} from './students'
+export { default as Teachers} from './teachers'
+export { default as Footer} from './footer'
