@@ -1,5 +1,6 @@
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import Students from "./components/students";
 import Track from "./components/track";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Hero />
       <Track />
+      <Students />
     </>
   );
 };
